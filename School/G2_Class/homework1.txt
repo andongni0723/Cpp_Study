@@ -1,0 +1,172 @@
+1.輸入三角形底、高，求面積。
+#include <stdio.h>
+
+int main() {
+    float b, h, area;
+    scanf("%f", &b);
+    scanf("%f", &h);
+
+    area = b*h/2;
+    printf("%.2f", area);
+}
+  
+
+2.輸入梯形上底、下底、高，求面積。
+#include <stdio.h>
+
+int main() {
+    float u, b, h, area;
+    scanf("%f", &u);
+    scanf("%f", &b);
+    scanf("%f", &h);
+
+    area = (u + b) * h / 2;
+    printf("%.2f", area);
+}
+
+3.輸入攝氏溫度，求華氏溫度。（F=9/5*C+32)
+#include <stdio.h>
+
+int main() {
+    float c, f;
+    scanf("%f", &c);
+
+    f = 9 / 5 * c + 32;
+    printf("%.2f", f);
+}
+  
+
+4.輸入身高（公尺)、體重（公斤)，求ＢＭＩ。（ＢＭＩ＝體重/(身高*身高)）
+
+#include <stdio.h>
+
+int main() {
+    float height, weight, bmi;
+
+    printf("Input height(m): ");
+    scanf("%f", &height);
+    printf("Input weight: ");
+    scanf("%f", &weight);
+
+    bmi = weight / (height * height);
+
+    printf("%.2f\n", bmi);
+}
+  
+5.輸入ＮＢＡ球星身高＿＿＿呎＿＿＿吋，求等於_＿＿＿公分。（１呎＝12吋、１吋＝2.54公分）
+#include <stdio.h>
+
+int main() {
+    float feet, inch, cm;
+
+    printf("Input feet:");
+    scanf("%f", &feet);
+    printf("Input inch:");
+    scanf("%f", &inch);
+
+    inch += feet * 12;
+    cm = inch * 2.54;
+
+    printf("%f\n", cm);
+    return 0;
+}
+  
+
+6.輸入身高＿＿＿公分，求等於_＿＿呎＿＿＿吋。
+#include <stdio.h>
+
+int main() {
+    float feet, inch, cm;
+
+    printf("Input height(cm):");
+    scanf("%f", &cm);
+
+    inch = cm / 2.54;
+  
+    while (inch >= 12.0){
+      feet += 1.0;
+      inch -= 12.0;
+    }
+    
+
+    printf("feet: %.2f, inch: %.2f\n", feet, inch);
+    return 0;
+}
+  
+
+7.PinMinMy 購物網推出優惠方案，一個原價 500 元的隨身碟，3 個一組特價 1280 元，
+未達優惠數量者皆須以原價計算。請輸入要購買的隨身碟個數，並輸出折扣後的總金額。
+(使用% ==> 求餘數)
+#include <stdio.h>
+
+int main() {
+    int n;
+    int spNum;
+    int noNum;
+
+    printf("Input: ");
+    scanf("%d", &n);
+    
+    spNum = (n / 3) * 1280;
+    noNum = (n % 3) * 500;
+
+    printf("sum: %d", spNum + noNum);
+    return 0;
+}
+
+8. 甲乙兩人參加 3000 公尺賽跑的成績分別是:A 分 B 秒與 C 分 D秒，
+請寫一個程式幫忙計算兩者成績相差幾分幾秒。
+(注意:有可能甲的時間比較短， 也有可能乙的時間比較短, 使用abs()函數==>絶對值)
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int aMin, aSec, bMin, bSec, aSumSec, bSumSec, diff;
+
+    /*Input*/
+    printf("甲 Input \nMinute: ");
+    scanf("%d", &aMin);
+    printf("Second: ");
+    scanf("%d", &aSec);
+    aSumSec = aMin * 60 + aSec;
+    printf("\n乙 Input \nMinute: ");
+    scanf("%d", &bMin);
+    printf("Second: ");
+    scanf("%d", &bSec);
+    bSumSec = bMin * 60 + bSec;
+
+    diff = abs(aSumSec - bSumSec);
+
+    /*Output*/
+    printf("%d", diff);
+    return 0;
+}
+
+9.小明帶儲值卡想到超市買【可樂】、【花雕雞泡麵】、【洗衣粉】等個數不等的商品。
+已知可樂一瓶 38 元，花雕雞泡麵一包 46 元、洗衣粉一袋 105 元。請寫一個程式，
+輸入三種物品的購買數量，計算總共要付多少錢。
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int a, b, c, sum;
+
+    /*Input 【可樂】、【花雕雞泡麵】、【洗衣粉】*/
+    printf("可樂: ");
+    scanf("%d", &a);
+    printf("花雕雞泡麵: ");
+    scanf("%d", &b);
+    printf("洗衣粉: ");
+    scanf("%d", &c);
+
+  
+    sum = a * 38 + b * 46 + c * 105;
+    
+    /*Output*/
+    printf("Sum: %d\n",sum);
+    return 0;
+}
+  
+
+
+
