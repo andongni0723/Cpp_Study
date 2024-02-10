@@ -2,6 +2,11 @@
 using namespace std;
 using lint = long long int;
 
+bool cmp( pair<int, int> const & p1, pair<int, int> const& p2)
+{
+    return p1.first < p2.first;
+}
+
 int main()
 {   
     cout.sync_with_stdio(false);
@@ -16,7 +21,7 @@ int main()
         tasks.emplace_back(t1, t2);
     }
 
-    sort(tasks.begin(), tasks.end());
+    sort(tasks.begin(), tasks.end(), cmp);
 
     lint time = 0, reward = 0;
     for(auto it : tasks)
