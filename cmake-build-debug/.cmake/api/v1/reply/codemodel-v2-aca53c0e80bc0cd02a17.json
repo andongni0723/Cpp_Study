@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Cpp_Study",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "2016-03_Q2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2016-03_Q2-Debug-e799ff53d2abc6ad86f8.json",
+					"name" : "2016-03_Q2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Advertisement::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Advertisement-Debug-47b3d433526c1d1cba1e.json",
+					"name" : "Advertisement",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ChopTree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ChopTree-Debug-41a7d577c4095eab8de4.json",
+					"name" : "ChopTree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CountingRooms::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CountingRooms-Debug-9e4c6f89788f79ed0d5d.json",
+					"name" : "CountingRooms",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SubarrayDistinctValues::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SubarrayDistinctValues-Debug-63bc28fa40e2d6b744de.json",
+					"name" : "SubarrayDistinctValues",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dfs_CountingRoom::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dfs_CountingRoom-Debug-57175bef47cb3114a74a.json",
+					"name" : "dfs_CountingRoom",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scratch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scratch-Debug-c0e558dd6db29cc68059.json",
+					"name" : "scratch",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/andongni/Documents/Myself_Folder/03_Program_Study/Cpp_Study/cmake-build-debug",
+		"source" : "/Users/andongni/Documents/Myself_Folder/03_Program_Study/Cpp_Study"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
