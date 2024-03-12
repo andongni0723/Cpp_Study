@@ -72,190 +72,190 @@ build scratch: CXX_EXECUTABLE_LINKER__scratch_Debug CMakeFiles/scratch.dir/Users
   TARGET_PDB = scratch.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target ChopTree
+# Object build statements for EXECUTABLE target BuildingRoads
 
 
 #############################################
-# Order-only phony target for ChopTree
+# Order-only phony target for BuildingRoads
 
-build cmake_object_order_depends_target_ChopTree: phony || CMakeFiles/ChopTree.dir
+build cmake_object_order_depends_target_BuildingRoads: phony || CMakeFiles/BuildingRoads.dir
 
-build CMakeFiles/ChopTree.dir/APCS_Teach/ChopTree.cpp.o: CXX_COMPILER__ChopTree_unscanned_Debug /Users/andongni/Documents/Myself_Folder/03_Program_Study/Cpp_Study/APCS_Teach/ChopTree.cpp || cmake_object_order_depends_target_ChopTree
-  DEP_FILE = CMakeFiles/ChopTree.dir/APCS_Teach/ChopTree.cpp.o.d
+build CMakeFiles/BuildingRoads.dir/APCS_Teach/BuildingRoads.cpp.o: CXX_COMPILER__BuildingRoads_unscanned_Debug /Users/andongni/Documents/Myself_Folder/03_Program_Study/Cpp_Study/APCS_Teach/BuildingRoads.cpp || cmake_object_order_depends_target_BuildingRoads
+  DEP_FILE = CMakeFiles/BuildingRoads.dir/APCS_Teach/BuildingRoads.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/ChopTree.dir
-  OBJECT_FILE_DIR = CMakeFiles/ChopTree.dir/APCS_Teach
+  OBJECT_DIR = CMakeFiles/BuildingRoads.dir
+  OBJECT_FILE_DIR = CMakeFiles/BuildingRoads.dir/APCS_Teach
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target ChopTree
+# Link build statements for EXECUTABLE target BuildingRoads
 
 
 #############################################
-# Link the executable ChopTree
+# Link the executable BuildingRoads
 
-build ChopTree: CXX_EXECUTABLE_LINKER__ChopTree_Debug CMakeFiles/ChopTree.dir/APCS_Teach/ChopTree.cpp.o
+build BuildingRoads: CXX_EXECUTABLE_LINKER__BuildingRoads_Debug CMakeFiles/BuildingRoads.dir/APCS_Teach/BuildingRoads.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
-  OBJECT_DIR = CMakeFiles/ChopTree.dir
+  OBJECT_DIR = CMakeFiles/BuildingRoads.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = ChopTree
-  TARGET_PDB = ChopTree.dbg
+  TARGET_FILE = BuildingRoads
+  TARGET_PDB = BuildingRoads.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Advertisement
+# Object build statements for EXECUTABLE target base
 
 
 #############################################
-# Order-only phony target for Advertisement
+# Order-only phony target for base
 
-build cmake_object_order_depends_target_Advertisement: phony || CMakeFiles/Advertisement.dir
+build cmake_object_order_depends_target_base: phony || CMakeFiles/base.dir
 
-build CMakeFiles/Advertisement.dir/APCS_Teach/Advertisement.cpp.o: CXX_COMPILER__Advertisement_unscanned_Debug /Users/andongni/Documents/Myself_Folder/03_Program_Study/Cpp_Study/APCS_Teach/Advertisement.cpp || cmake_object_order_depends_target_Advertisement
-  DEP_FILE = CMakeFiles/Advertisement.dir/APCS_Teach/Advertisement.cpp.o.d
+build CMakeFiles/base.dir/Base/base.cpp.o: CXX_COMPILER__base_unscanned_Debug /Users/andongni/Documents/Myself_Folder/03_Program_Study/Cpp_Study/Base/base.cpp || cmake_object_order_depends_target_base
+  DEP_FILE = CMakeFiles/base.dir/Base/base.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/Advertisement.dir
-  OBJECT_FILE_DIR = CMakeFiles/Advertisement.dir/APCS_Teach
+  OBJECT_DIR = CMakeFiles/base.dir
+  OBJECT_FILE_DIR = CMakeFiles/base.dir/Base
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Advertisement
+# Link build statements for EXECUTABLE target base
 
 
 #############################################
-# Link the executable Advertisement
+# Link the executable base
 
-build Advertisement: CXX_EXECUTABLE_LINKER__Advertisement_Debug CMakeFiles/Advertisement.dir/APCS_Teach/Advertisement.cpp.o
+build base: CXX_EXECUTABLE_LINKER__base_Debug CMakeFiles/base.dir/Base/base.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
-  OBJECT_DIR = CMakeFiles/Advertisement.dir
+  OBJECT_DIR = CMakeFiles/base.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = Advertisement
-  TARGET_PDB = Advertisement.dbg
+  TARGET_FILE = base
+  TARGET_PDB = base.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target CountingRooms
+# Object build statements for EXECUTABLE target Knapsack2_New
 
 
 #############################################
-# Order-only phony target for CountingRooms
+# Order-only phony target for Knapsack2_New
 
-build cmake_object_order_depends_target_CountingRooms: phony || CMakeFiles/CountingRooms.dir
+build cmake_object_order_depends_target_Knapsack2_New: phony || CMakeFiles/Knapsack2_New.dir
 
-build CMakeFiles/CountingRooms.dir/APCS_Teach/CountingRooms.cpp.o: CXX_COMPILER__CountingRooms_unscanned_Debug /Users/andongni/Documents/Myself_Folder/03_Program_Study/Cpp_Study/APCS_Teach/CountingRooms.cpp || cmake_object_order_depends_target_CountingRooms
-  DEP_FILE = CMakeFiles/CountingRooms.dir/APCS_Teach/CountingRooms.cpp.o.d
+build CMakeFiles/Knapsack2_New.dir/APCS_Teach/Knapsack2_New.cpp.o: CXX_COMPILER__Knapsack2_New_unscanned_Debug /Users/andongni/Documents/Myself_Folder/03_Program_Study/Cpp_Study/APCS_Teach/Knapsack2_New.cpp || cmake_object_order_depends_target_Knapsack2_New
+  DEP_FILE = CMakeFiles/Knapsack2_New.dir/APCS_Teach/Knapsack2_New.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/CountingRooms.dir
-  OBJECT_FILE_DIR = CMakeFiles/CountingRooms.dir/APCS_Teach
+  OBJECT_DIR = CMakeFiles/Knapsack2_New.dir
+  OBJECT_FILE_DIR = CMakeFiles/Knapsack2_New.dir/APCS_Teach
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target CountingRooms
+# Link build statements for EXECUTABLE target Knapsack2_New
 
 
 #############################################
-# Link the executable CountingRooms
+# Link the executable Knapsack2_New
 
-build CountingRooms: CXX_EXECUTABLE_LINKER__CountingRooms_Debug CMakeFiles/CountingRooms.dir/APCS_Teach/CountingRooms.cpp.o
+build Knapsack2_New: CXX_EXECUTABLE_LINKER__Knapsack2_New_Debug CMakeFiles/Knapsack2_New.dir/APCS_Teach/Knapsack2_New.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
-  OBJECT_DIR = CMakeFiles/CountingRooms.dir
+  OBJECT_DIR = CMakeFiles/Knapsack2_New.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = CountingRooms
-  TARGET_PDB = CountingRooms.dbg
+  TARGET_FILE = Knapsack2_New
+  TARGET_PDB = Knapsack2_New.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target dfs_CountingRoom
+# Object build statements for EXECUTABLE target Labyrinth
 
 
 #############################################
-# Order-only phony target for dfs_CountingRoom
+# Order-only phony target for Labyrinth
 
-build cmake_object_order_depends_target_dfs_CountingRoom: phony || CMakeFiles/dfs_CountingRoom.dir
+build cmake_object_order_depends_target_Labyrinth: phony || CMakeFiles/Labyrinth.dir
 
-build CMakeFiles/dfs_CountingRoom.dir/APCS_Teach/dfs_CountingRoom.cpp.o: CXX_COMPILER__dfs_CountingRoom_unscanned_Debug /Users/andongni/Documents/Myself_Folder/03_Program_Study/Cpp_Study/APCS_Teach/dfs_CountingRoom.cpp || cmake_object_order_depends_target_dfs_CountingRoom
-  DEP_FILE = CMakeFiles/dfs_CountingRoom.dir/APCS_Teach/dfs_CountingRoom.cpp.o.d
+build CMakeFiles/Labyrinth.dir/APCS_Teach/Labyrinth.cpp.o: CXX_COMPILER__Labyrinth_unscanned_Debug /Users/andongni/Documents/Myself_Folder/03_Program_Study/Cpp_Study/APCS_Teach/Labyrinth.cpp || cmake_object_order_depends_target_Labyrinth
+  DEP_FILE = CMakeFiles/Labyrinth.dir/APCS_Teach/Labyrinth.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/dfs_CountingRoom.dir
-  OBJECT_FILE_DIR = CMakeFiles/dfs_CountingRoom.dir/APCS_Teach
+  OBJECT_DIR = CMakeFiles/Labyrinth.dir
+  OBJECT_FILE_DIR = CMakeFiles/Labyrinth.dir/APCS_Teach
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target dfs_CountingRoom
+# Link build statements for EXECUTABLE target Labyrinth
 
 
 #############################################
-# Link the executable dfs_CountingRoom
+# Link the executable Labyrinth
 
-build dfs_CountingRoom: CXX_EXECUTABLE_LINKER__dfs_CountingRoom_Debug CMakeFiles/dfs_CountingRoom.dir/APCS_Teach/dfs_CountingRoom.cpp.o
+build Labyrinth: CXX_EXECUTABLE_LINKER__Labyrinth_Debug CMakeFiles/Labyrinth.dir/APCS_Teach/Labyrinth.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
-  OBJECT_DIR = CMakeFiles/dfs_CountingRoom.dir
+  OBJECT_DIR = CMakeFiles/Labyrinth.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = dfs_CountingRoom
-  TARGET_PDB = dfs_CountingRoom.dbg
+  TARGET_FILE = Labyrinth
+  TARGET_PDB = Labyrinth.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target SubarrayDistinctValues
+# Object build statements for EXECUTABLE target 2017-03_Q2
 
 
 #############################################
-# Order-only phony target for SubarrayDistinctValues
+# Order-only phony target for 2017-03_Q2
 
-build cmake_object_order_depends_target_SubarrayDistinctValues: phony || CMakeFiles/SubarrayDistinctValues.dir
+build cmake_object_order_depends_target_2017-03_Q2: phony || CMakeFiles/2017-03_Q2.dir
 
-build CMakeFiles/SubarrayDistinctValues.dir/APCS_Teach/SubarrayDistinctValues.cpp.o: CXX_COMPILER__SubarrayDistinctValues_unscanned_Debug /Users/andongni/Documents/Myself_Folder/03_Program_Study/Cpp_Study/APCS_Teach/SubarrayDistinctValues.cpp || cmake_object_order_depends_target_SubarrayDistinctValues
-  DEP_FILE = CMakeFiles/SubarrayDistinctValues.dir/APCS_Teach/SubarrayDistinctValues.cpp.o.d
+build CMakeFiles/2017-03_Q2.dir/APCS/2017-03_Q2.cpp.o: CXX_COMPILER__2017-03_Q2_unscanned_Debug /Users/andongni/Documents/Myself_Folder/03_Program_Study/Cpp_Study/APCS/2017-03_Q2.cpp || cmake_object_order_depends_target_2017-03_Q2
+  DEP_FILE = CMakeFiles/2017-03_Q2.dir/APCS/2017-03_Q2.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/SubarrayDistinctValues.dir
-  OBJECT_FILE_DIR = CMakeFiles/SubarrayDistinctValues.dir/APCS_Teach
+  OBJECT_DIR = CMakeFiles/2017-03_Q2.dir
+  OBJECT_FILE_DIR = CMakeFiles/2017-03_Q2.dir/APCS
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target SubarrayDistinctValues
+# Link build statements for EXECUTABLE target 2017-03_Q2
 
 
 #############################################
-# Link the executable SubarrayDistinctValues
+# Link the executable 2017-03_Q2
 
-build SubarrayDistinctValues: CXX_EXECUTABLE_LINKER__SubarrayDistinctValues_Debug CMakeFiles/SubarrayDistinctValues.dir/APCS_Teach/SubarrayDistinctValues.cpp.o
+build 2017-03_Q2: CXX_EXECUTABLE_LINKER__2017-03_Q2_Debug CMakeFiles/2017-03_Q2.dir/APCS/2017-03_Q2.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
-  OBJECT_DIR = CMakeFiles/SubarrayDistinctValues.dir
+  OBJECT_DIR = CMakeFiles/2017-03_Q2.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = SubarrayDistinctValues
-  TARGET_PDB = SubarrayDistinctValues.dbg
+  TARGET_FILE = 2017-03_Q2
+  TARGET_PDB = 2017-03_Q2.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 2016-03_Q2
+# Object build statements for EXECUTABLE target 2019-10_Q3
 
 
 #############################################
-# Order-only phony target for 2016-03_Q2
+# Order-only phony target for 2019-10_Q3
 
-build cmake_object_order_depends_target_2016-03_Q2: phony || CMakeFiles/2016-03_Q2.dir
+build cmake_object_order_depends_target_2019-10_Q3: phony || CMakeFiles/2019-10_Q3.dir
 
-build CMakeFiles/2016-03_Q2.dir/APCS/2016-03_Q2.cpp.o: CXX_COMPILER__2016-03_Q2_unscanned_Debug /Users/andongni/Documents/Myself_Folder/03_Program_Study/Cpp_Study/APCS/2016-03_Q2.cpp || cmake_object_order_depends_target_2016-03_Q2
-  DEP_FILE = CMakeFiles/2016-03_Q2.dir/APCS/2016-03_Q2.cpp.o.d
+build CMakeFiles/2019-10_Q3.dir/APCS/2019-10_Q3.cpp.o: CXX_COMPILER__2019-10_Q3_unscanned_Debug /Users/andongni/Documents/Myself_Folder/03_Program_Study/Cpp_Study/APCS/2019-10_Q3.cpp || cmake_object_order_depends_target_2019-10_Q3
+  DEP_FILE = CMakeFiles/2019-10_Q3.dir/APCS/2019-10_Q3.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/2016-03_Q2.dir
-  OBJECT_FILE_DIR = CMakeFiles/2016-03_Q2.dir/APCS
+  OBJECT_DIR = CMakeFiles/2019-10_Q3.dir
+  OBJECT_FILE_DIR = CMakeFiles/2019-10_Q3.dir/APCS
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 2016-03_Q2
+# Link build statements for EXECUTABLE target 2019-10_Q3
 
 
 #############################################
-# Link the executable 2016-03_Q2
+# Link the executable 2019-10_Q3
 
-build 2016-03_Q2: CXX_EXECUTABLE_LINKER__2016-03_Q2_Debug CMakeFiles/2016-03_Q2.dir/APCS/2016-03_Q2.cpp.o
+build 2019-10_Q3: CXX_EXECUTABLE_LINKER__2019-10_Q3_Debug CMakeFiles/2019-10_Q3.dir/APCS/2019-10_Q3.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
-  OBJECT_DIR = CMakeFiles/2016-03_Q2.dir
+  OBJECT_DIR = CMakeFiles/2019-10_Q3.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 2016-03_Q2
-  TARGET_PDB = 2016-03_Q2.dbg
+  TARGET_FILE = 2019-10_Q3
+  TARGET_PDB = 2019-10_Q3.dbg
 
 
 #############################################
@@ -291,7 +291,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/andongni/Documents/Myself_Folder/03_Program_Study/Cpp_Study/cmake-build-debug
 
-build all: phony scratch ChopTree Advertisement CountingRooms dfs_CountingRoom SubarrayDistinctValues 2016-03_Q2
+build all: phony scratch BuildingRoads base Knapsack2_New Labyrinth 2017-03_Q2 2019-10_Q3
 
 # =============================================================================
 # Built-in targets

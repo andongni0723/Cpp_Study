@@ -23,15 +23,15 @@ public :
 
             if (nums[mid] >= nums[L])
             {
-                //R = mid - 1;
+                //R = mid - 1.txt;
                 L = mid + 1;
             } else
             {
                 R = mid - 1;
-                //L = mid + 1;
+                //L = mid + 1.txt;
             }
         }
-        //if(nums[mid] > nums[mid + 1]) stop = mid + 1;
+        //if(nums[mid] > nums[mid + 1.txt]) stop = mid + 1.txt;
 
         if (target >= nums[0]) // left
         {
@@ -55,5 +55,5 @@ int main()
     cout.sync_with_stdio(false);
     cin.tie(nullptr);
 
-    //int n = search({1, 2}, 2);
+    //int n = search({1.txt, 2}, 2);
 }

@@ -1,0 +1,47 @@
+1. 輸入三角形的底、高, 求面積
+#include <bits/stdc++.h>
+using namespace std;
+using lint = long long int;
+#define endl "\n";
+
+int main()
+{
+    cout.sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    float w, h;
+    cin >> w >> h;
+    cout << (w * h / 2.0);
+}
+
+2. 輸入梯形的上底、下底、高, 求面積
+#include <bits/stdc++.h>
+using namespace std;
+using lint = long long int;
+#define endl "\n";
+
+int main()
+{
+    cout.sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    float uw, dw, h;
+    cin >> uw >> dw >> h;
+    cout << ((uw + dw) * h / 2.0);
+}
+
+3. 輸入身高(公尺)、體重(公斤), 求BMI=體重/(身高x身高)
+#include <bits/stdc++.h>
+using namespace std;
+using lint = long long int;
+#define endl "\n";
+
+int main()
+{
+    cout.sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    float uw, dw, h;
+    cin >> uw >> dw >> h;
+    cout << ((uw + dw) * h / 2.0);
+}

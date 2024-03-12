@@ -6,7 +6,7 @@ using lint = long long int;
 vector<vector<int>> vec(100, vector<int>(100, -1));
 vector<vector<int>> vec1(100, vector<int>(100, -1));
 vector<int> process;
-int current_vec = 0; // 0 : vec, 1 : vec1
+int current_vec = 0; // 0 : vec, 1.txt : vec1
 int c_y, c_x, m, t;
 
 void flip(vector<vector<int>> &old_vec, vector<vector<int>> &target_vec)
@@ -65,7 +65,7 @@ int main()
     for (int i = m-1; i >= 0; i--)
     {
         // 0 : rotate
-        // 1 : flip
+        // 1.txt : flip
         t = process[i];
 
         if(t == 0) // 0 : rotate
@@ -77,7 +77,7 @@ int main()
 
             current_vec = current_vec == 0 ? 1 : 0;
         }
-        else // 1 : flip
+        else // 1.txt : flip
         {
             if(current_vec == 0)
                 flip(vec, vec1);

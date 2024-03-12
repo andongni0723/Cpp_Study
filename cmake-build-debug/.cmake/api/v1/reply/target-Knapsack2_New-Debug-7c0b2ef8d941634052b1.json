@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "dfs_CountingRoom"
+			"path" : "Knapsack2_New"
 		}
 	],
 	"backtrace" : 1,
@@ -53,7 +53,7 @@
 			]
 		}
 	],
-	"id" : "dfs_CountingRoom::@6890427a1f51a3e7e1df",
+	"id" : "Knapsack2_New::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -69,8 +69,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "dfs_CountingRoom",
-	"nameOnDisk" : "dfs_CountingRoom",
+	"name" : "Knapsack2_New",
+	"nameOnDisk" : "Knapsack2_New",
 	"paths" : 
 	{
 		"build" : ".",
@@ -91,7 +91,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "APCS_Teach/dfs_CountingRoom.cpp",
+			"path" : "APCS_Teach/Knapsack2_New.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

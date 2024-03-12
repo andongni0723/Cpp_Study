@@ -8,8 +8,8 @@ int w, h;                 // the all seat width, height
 int center1_x, center1_y; // the center seat of 1st input position
 int center2_x, center2_y; // the center seat of 2nd input position
 int x = 0, y = 0;         // current printing seat position
-int is_stand1 = 0;        // bool (1.out: stand , 0: not stand)
-int is_stand2 = 0;        // bool (1.out: stand , 0: not stand)
+int is_stand1 = 0;        // bool (1.txt.out: stand , 0: not stand)
+int is_stand2 = 0;        // bool (1.txt.out: stand , 0: not stand)
 
 /// @brief According to center position to
 // calc the "big plus" first people in line be standing or not
@@ -54,16 +54,16 @@ int main()
             {
                 cout << "*";
             }
-            else if (in_line1 || in_line2) // in line 1.out or line2
+            else if (in_line1 || in_line2) // in line 1.txt.out or line2
             {
-                if (in_line1 && in_line2) // in line 1.out and line2
+                if (in_line1 && in_line2) // in line 1.txt.out and line2
                 {
                     cout << "#";
 
                     is_stand1 = !is_stand1;
                     is_stand2 = !is_stand2;
                 }
-                else if (in_line1) // in line 1.out
+                else if (in_line1) // in line 1.txt.out
                 {
                     // Check be stand or not
                     cout << (is_stand1 ? "O" : "-");

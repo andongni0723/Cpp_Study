@@ -6,7 +6,7 @@ using lint = long long int;
 int n, newX, newY, dir = 0;
 //  3
 //2   0
-//  1
+//  1.txt
 
 int leftCount = 0, rightCount = 0, turnBackCount = 0;
 pair<int, int> currentPos = make_pair(0, 0);

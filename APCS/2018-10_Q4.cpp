@@ -3,9 +3,9 @@ using namespace std;
 using lint = long long int;
 
 vector<lint> vec;
-lint dp[110][(lint)2e5 + 10];
+lint dp[110][(int)2e5 + 10];
 
-lint f(lint i, lint need_s)
+int f(lint i, lint need_s)
 {
     if(need_s == 0 || need_s < -vec[i]) return 0;
     if(i < 0) return 2e5 + 10;
@@ -42,12 +42,18 @@ int main()
     // INIT
     for (int i = 0; i < 100; i++)
     {
-        for (lint j = 0; j < (lint)2e5; j++)
+        for (int j = 0; j < (int)2e5; j++)
         {
             dp[i][j] = -1;
         }
     }
 
 
-    cout << f(n, have);
+    int ans = (int)1e8;
+    for(int i=have; i<=m;i++)
+    {
+        ans = min(f(n-1, i), ans);
+    }
+
+    cout << ans;
 }

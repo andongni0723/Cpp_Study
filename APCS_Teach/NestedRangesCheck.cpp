@@ -26,7 +26,7 @@ int main()
         {
             if(vec[j].second <= vec[i].second)
             {
-                //cout << "1" << " ";
+                //cout << "1.txt" << " ";
                 firstAnsMap[vec[i].first] = '1';
                 isFind = true;
                 break;
@@ -48,7 +48,7 @@ int main()
         {
             if(vec[j].second >= vec[i].second)
             {
-                //cout << "1" << " ";
+                //cout << "1.txt" << " ";
                 secondAnsMap[vec[i].first] = '1';
                 isFind = true;
                 break;

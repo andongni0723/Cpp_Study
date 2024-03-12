@@ -7,9 +7,9 @@ int main()
     // cout << "abd";
 
     // x = input()
-    int i1;                 // 1.out , 2, 4
+    int i1;                 // 1.txt.out , 2, 4
     long long int ib1;      //
-    float f1;               // 1.out.2
+    float f1;               // 1.txt.out.2
     string s1;              // "abd"
     bool isCorrect = false; // false true
 

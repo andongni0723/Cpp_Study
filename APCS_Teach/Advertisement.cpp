@@ -6,8 +6,8 @@ class board
 {
 public:
 
-    //    [0] [1]
-    //-1   1   2
+    //    [0] [1.txt]
+    //-1.txt   1.txt   2
 
     lint height;
     lint left;

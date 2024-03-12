@@ -28,7 +28,7 @@ int main()
             {
                 cout << "*";
             }
-            else if (in_line1 || in_line2) // in line 1.out or line2
+            else if (in_line1 || in_line2) // in line 1.txt.out or line2
             {
                 cout << (in_line1 && in_line2 ? "#" : "O");
             }

@@ -2,9 +2,9 @@
 using namespace std;
 using lint = long long int;
 
-// [0,0] [0,1] [0,2]
-// [1,0] [1,1] [1,2]
-// [2,0] [2,1] [2,2]
+// [0,0] [0,1.txt] [0,2]
+// [1.txt,0] [1.txt,1.txt] [1.txt,2]
+// [2,0] [2,1.txt] [2,2]
 // -> [y, x]
 
 lint x, y, q, t;
