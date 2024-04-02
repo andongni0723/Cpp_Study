@@ -7,9 +7,10 @@ add_executable(scratch "/Users/andongni/Library/Application Support/JetBrains/CL
 
 
 
-add_executable(BuildingRoads APCS_Teach/BuildingRoads.cpp)
-add_executable(base Base/base.cpp)
-add_executable(Knapsack2_New APCS_Teach/Knapsack2_New.cpp)
-add_executable(Labyrinth APCS_Teach/Labyrinth.cpp)
-add_executable(2017-03_Q2 APCS/2017-03_Q2.cpp)
-add_executable(2019-10_Q3 APCS/2019-10_Q3.cpp)
+add_executable(apcs0303 APCS_Sim/apcs0303.cpp)
+add_executable(apcs0303-Q1 APCS_Sim/apcs0303-Q1.cpp)
+add_executable(apcs0304 APCS_Sim/apcs0304.cpp)
+add_executable(2022-10_Q3 APCS/2022-10_Q3.cpp)
+add_executable(Subordinates APCS_Teach/Subordinates.cpp)
+add_executable(2017-10_Q3 APCS/2017-10_Q3.cpp)
+add_executable(2016-03_Q4 APCS/2016-03_Q4.cpp)

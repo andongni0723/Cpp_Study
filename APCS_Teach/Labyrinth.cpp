@@ -59,7 +59,7 @@ void bfs(pair<int, int> pos)
                 continue;
 
             // if not visited
-            if(grids[current_find_pos.first][current_find_pos.second].grid_type != '#' ||
+            if(grids[current_find_pos.first][current_find_pos.second].grid_type != '#' &&
                !grids[current_find_pos.first][current_find_pos.second].is_visited)
             {
                 // visited = true, distance set
