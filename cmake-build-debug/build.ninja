@@ -72,221 +72,97 @@ build scratch: CXX_EXECUTABLE_LINKER__scratch_Debug CMakeFiles/scratch.dir/Users
   TARGET_PDB = scratch.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target apcs0303
+# Object build statements for EXECUTABLE target Other_BIT
 
 
 #############################################
-# Order-only phony target for apcs0303
+# Order-only phony target for Other_BIT
 
-build cmake_object_order_depends_target_apcs0303: phony || CMakeFiles/apcs0303.dir
+build cmake_object_order_depends_target_Other_BIT: phony || CMakeFiles/Other_BIT.dir
 
-build CMakeFiles/apcs0303.dir/APCS_Sim/apcs0303.cpp.o: CXX_COMPILER__apcs0303_unscanned_Debug /Users/andongni/Documents/Myself_Folder/03_Program_Study/Cpp_Study/APCS_Sim/apcs0303.cpp || cmake_object_order_depends_target_apcs0303
-  DEP_FILE = CMakeFiles/apcs0303.dir/APCS_Sim/apcs0303.cpp.o.d
+build CMakeFiles/Other_BIT.dir/APCS_Teach/Other_BIT.cpp.o: CXX_COMPILER__Other_BIT_unscanned_Debug /Users/andongni/Documents/Myself_Folder/03_Program_Study/Cpp_Study/APCS_Teach/Other_BIT.cpp || cmake_object_order_depends_target_Other_BIT
+  DEP_FILE = CMakeFiles/Other_BIT.dir/APCS_Teach/Other_BIT.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/apcs0303.dir
-  OBJECT_FILE_DIR = CMakeFiles/apcs0303.dir/APCS_Sim
+  OBJECT_DIR = CMakeFiles/Other_BIT.dir
+  OBJECT_FILE_DIR = CMakeFiles/Other_BIT.dir/APCS_Teach
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target apcs0303
+# Link build statements for EXECUTABLE target Other_BIT
 
 
 #############################################
-# Link the executable apcs0303
+# Link the executable Other_BIT
 
-build apcs0303: CXX_EXECUTABLE_LINKER__apcs0303_Debug CMakeFiles/apcs0303.dir/APCS_Sim/apcs0303.cpp.o
+build Other_BIT: CXX_EXECUTABLE_LINKER__Other_BIT_Debug CMakeFiles/Other_BIT.dir/APCS_Teach/Other_BIT.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
-  OBJECT_DIR = CMakeFiles/apcs0303.dir
+  OBJECT_DIR = CMakeFiles/Other_BIT.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = apcs0303
-  TARGET_PDB = apcs0303.dbg
+  TARGET_FILE = Other_BIT
+  TARGET_PDB = Other_BIT.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target apcs0303-Q1
+# Object build statements for EXECUTABLE target apcs0103
 
 
 #############################################
-# Order-only phony target for apcs0303-Q1
+# Order-only phony target for apcs0103
 
-build cmake_object_order_depends_target_apcs0303-Q1: phony || CMakeFiles/apcs0303-Q1.dir
+build cmake_object_order_depends_target_apcs0103: phony || CMakeFiles/apcs0103.dir
 
-build CMakeFiles/apcs0303-Q1.dir/APCS_Sim/apcs0303-Q1.cpp.o: CXX_COMPILER__apcs0303-Q1_unscanned_Debug /Users/andongni/Documents/Myself_Folder/03_Program_Study/Cpp_Study/APCS_Sim/apcs0303-Q1.cpp || cmake_object_order_depends_target_apcs0303-Q1
-  DEP_FILE = CMakeFiles/apcs0303-Q1.dir/APCS_Sim/apcs0303-Q1.cpp.o.d
+build CMakeFiles/apcs0103.dir/APCS_Sim/apcs0103.cpp.o: CXX_COMPILER__apcs0103_unscanned_Debug /Users/andongni/Documents/Myself_Folder/03_Program_Study/Cpp_Study/APCS_Sim/apcs0103.cpp || cmake_object_order_depends_target_apcs0103
+  DEP_FILE = CMakeFiles/apcs0103.dir/APCS_Sim/apcs0103.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/apcs0303-Q1.dir
-  OBJECT_FILE_DIR = CMakeFiles/apcs0303-Q1.dir/APCS_Sim
+  OBJECT_DIR = CMakeFiles/apcs0103.dir
+  OBJECT_FILE_DIR = CMakeFiles/apcs0103.dir/APCS_Sim
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target apcs0303-Q1
+# Link build statements for EXECUTABLE target apcs0103
 
 
 #############################################
-# Link the executable apcs0303-Q1
+# Link the executable apcs0103
 
-build apcs0303-Q1: CXX_EXECUTABLE_LINKER__apcs0303-Q1_Debug CMakeFiles/apcs0303-Q1.dir/APCS_Sim/apcs0303-Q1.cpp.o
+build apcs0103: CXX_EXECUTABLE_LINKER__apcs0103_Debug CMakeFiles/apcs0103.dir/APCS_Sim/apcs0103.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
-  OBJECT_DIR = CMakeFiles/apcs0303-Q1.dir
+  OBJECT_DIR = CMakeFiles/apcs0103.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = apcs0303-Q1
-  TARGET_PDB = apcs0303-Q1.dbg
+  TARGET_FILE = apcs0103
+  TARGET_PDB = apcs0103.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target apcs0304
+# Object build statements for EXECUTABLE target AtCoder
 
 
 #############################################
-# Order-only phony target for apcs0304
+# Order-only phony target for AtCoder
 
-build cmake_object_order_depends_target_apcs0304: phony || CMakeFiles/apcs0304.dir
+build cmake_object_order_depends_target_AtCoder: phony || CMakeFiles/AtCoder.dir
 
-build CMakeFiles/apcs0304.dir/APCS_Sim/apcs0304.cpp.o: CXX_COMPILER__apcs0304_unscanned_Debug /Users/andongni/Documents/Myself_Folder/03_Program_Study/Cpp_Study/APCS_Sim/apcs0304.cpp || cmake_object_order_depends_target_apcs0304
-  DEP_FILE = CMakeFiles/apcs0304.dir/APCS_Sim/apcs0304.cpp.o.d
+build CMakeFiles/AtCoder.dir/AtCoder/AtCoder.cpp.o: CXX_COMPILER__AtCoder_unscanned_Debug /Users/andongni/Documents/Myself_Folder/03_Program_Study/Cpp_Study/AtCoder/AtCoder.cpp || cmake_object_order_depends_target_AtCoder
+  DEP_FILE = CMakeFiles/AtCoder.dir/AtCoder/AtCoder.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/apcs0304.dir
-  OBJECT_FILE_DIR = CMakeFiles/apcs0304.dir/APCS_Sim
+  OBJECT_DIR = CMakeFiles/AtCoder.dir
+  OBJECT_FILE_DIR = CMakeFiles/AtCoder.dir/AtCoder
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target apcs0304
+# Link build statements for EXECUTABLE target AtCoder
 
 
 #############################################
-# Link the executable apcs0304
+# Link the executable AtCoder
 
-build apcs0304: CXX_EXECUTABLE_LINKER__apcs0304_Debug CMakeFiles/apcs0304.dir/APCS_Sim/apcs0304.cpp.o
+build AtCoder: CXX_EXECUTABLE_LINKER__AtCoder_Debug CMakeFiles/AtCoder.dir/AtCoder/AtCoder.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
-  OBJECT_DIR = CMakeFiles/apcs0304.dir
+  OBJECT_DIR = CMakeFiles/AtCoder.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = apcs0304
-  TARGET_PDB = apcs0304.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 2022-10_Q3
-
-
-#############################################
-# Order-only phony target for 2022-10_Q3
-
-build cmake_object_order_depends_target_2022-10_Q3: phony || CMakeFiles/2022-10_Q3.dir
-
-build CMakeFiles/2022-10_Q3.dir/APCS/2022-10_Q3.cpp.o: CXX_COMPILER__2022-10_Q3_unscanned_Debug /Users/andongni/Documents/Myself_Folder/03_Program_Study/Cpp_Study/APCS/2022-10_Q3.cpp || cmake_object_order_depends_target_2022-10_Q3
-  DEP_FILE = CMakeFiles/2022-10_Q3.dir/APCS/2022-10_Q3.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/2022-10_Q3.dir
-  OBJECT_FILE_DIR = CMakeFiles/2022-10_Q3.dir/APCS
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 2022-10_Q3
-
-
-#############################################
-# Link the executable 2022-10_Q3
-
-build 2022-10_Q3: CXX_EXECUTABLE_LINKER__2022-10_Q3_Debug CMakeFiles/2022-10_Q3.dir/APCS/2022-10_Q3.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
-  OBJECT_DIR = CMakeFiles/2022-10_Q3.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 2022-10_Q3
-  TARGET_PDB = 2022-10_Q3.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target Subordinates
-
-
-#############################################
-# Order-only phony target for Subordinates
-
-build cmake_object_order_depends_target_Subordinates: phony || CMakeFiles/Subordinates.dir
-
-build CMakeFiles/Subordinates.dir/APCS_Teach/Subordinates.cpp.o: CXX_COMPILER__Subordinates_unscanned_Debug /Users/andongni/Documents/Myself_Folder/03_Program_Study/Cpp_Study/APCS_Teach/Subordinates.cpp || cmake_object_order_depends_target_Subordinates
-  DEP_FILE = CMakeFiles/Subordinates.dir/APCS_Teach/Subordinates.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/Subordinates.dir
-  OBJECT_FILE_DIR = CMakeFiles/Subordinates.dir/APCS_Teach
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Subordinates
-
-
-#############################################
-# Link the executable Subordinates
-
-build Subordinates: CXX_EXECUTABLE_LINKER__Subordinates_Debug CMakeFiles/Subordinates.dir/APCS_Teach/Subordinates.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
-  OBJECT_DIR = CMakeFiles/Subordinates.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = Subordinates
-  TARGET_PDB = Subordinates.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 2017-10_Q3
-
-
-#############################################
-# Order-only phony target for 2017-10_Q3
-
-build cmake_object_order_depends_target_2017-10_Q3: phony || CMakeFiles/2017-10_Q3.dir
-
-build CMakeFiles/2017-10_Q3.dir/APCS/2017-10_Q3.cpp.o: CXX_COMPILER__2017-10_Q3_unscanned_Debug /Users/andongni/Documents/Myself_Folder/03_Program_Study/Cpp_Study/APCS/2017-10_Q3.cpp || cmake_object_order_depends_target_2017-10_Q3
-  DEP_FILE = CMakeFiles/2017-10_Q3.dir/APCS/2017-10_Q3.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/2017-10_Q3.dir
-  OBJECT_FILE_DIR = CMakeFiles/2017-10_Q3.dir/APCS
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 2017-10_Q3
-
-
-#############################################
-# Link the executable 2017-10_Q3
-
-build 2017-10_Q3: CXX_EXECUTABLE_LINKER__2017-10_Q3_Debug CMakeFiles/2017-10_Q3.dir/APCS/2017-10_Q3.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
-  OBJECT_DIR = CMakeFiles/2017-10_Q3.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 2017-10_Q3
-  TARGET_PDB = 2017-10_Q3.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 2016-03_Q4
-
-
-#############################################
-# Order-only phony target for 2016-03_Q4
-
-build cmake_object_order_depends_target_2016-03_Q4: phony || CMakeFiles/2016-03_Q4.dir
-
-build CMakeFiles/2016-03_Q4.dir/APCS/2016-03_Q4.cpp.o: CXX_COMPILER__2016-03_Q4_unscanned_Debug /Users/andongni/Documents/Myself_Folder/03_Program_Study/Cpp_Study/APCS/2016-03_Q4.cpp || cmake_object_order_depends_target_2016-03_Q4
-  DEP_FILE = CMakeFiles/2016-03_Q4.dir/APCS/2016-03_Q4.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/2016-03_Q4.dir
-  OBJECT_FILE_DIR = CMakeFiles/2016-03_Q4.dir/APCS
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 2016-03_Q4
-
-
-#############################################
-# Link the executable 2016-03_Q4
-
-build 2016-03_Q4: CXX_EXECUTABLE_LINKER__2016-03_Q4_Debug CMakeFiles/2016-03_Q4.dir/APCS/2016-03_Q4.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
-  OBJECT_DIR = CMakeFiles/2016-03_Q4.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 2016-03_Q4
-  TARGET_PDB = 2016-03_Q4.dbg
+  TARGET_FILE = AtCoder
+  TARGET_PDB = AtCoder.dbg
 
 
 #############################################
@@ -322,7 +198,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/andongni/Documents/Myself_Folder/03_Program_Study/Cpp_Study/cmake-build-debug
 
-build all: phony scratch apcs0303 apcs0303-Q1 apcs0304 2022-10_Q3 Subordinates 2017-10_Q3 2016-03_Q4
+build all: phony scratch Other_BIT apcs0103 AtCoder
 
 # =============================================================================
 # Built-in targets
