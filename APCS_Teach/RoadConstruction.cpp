@@ -43,7 +43,7 @@ struct disjointSet
         int x = find(a);
         int y = find(b);
         if(size[x] < size[y]) swap(x, y);
-        // now x > y, x for all
+        // now x > y, for all x
         size[x] += size[y];
         vec[y] = vec[x];
         size[y] = 0;

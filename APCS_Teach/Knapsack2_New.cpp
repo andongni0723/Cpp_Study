@@ -3,13 +3,14 @@ using namespace std;
 using lint = long long int;
 #define endl "\n";
 
-vector<pair<lint, lint>> vec; // w, v                                   //改了這裡
-vector<vector<lint>> dp(110, vector<lint>((int)1e5 + 10, (int)1e9 + 10));
+vector<pair<lint, lint> > vec; // w, v                                   //改了這裡
+vector<vector<lint> > dp(110, vector<lint>((int)1e5 + 10, (int)1e9 + 10));
 
 // 前i個物品中，背包價值為v時最小重量
 lint f(lint i, lint v)
 {
-    if(i < 0 || v < 0) return 0;
+    if(v == 0) return 0;
+    if(i < 0 || v < 0) return 1e18;
 
     if(dp[i][v] != (int)1e9 + 10)
     {
@@ -45,9 +46,9 @@ int main()
 
     lint current_w = 0;
     lint max_v = 0;
-    for (int iv = 0; iv < (int)1e5; iv++)
+    for (int iv = 0; iv <= (int)1e5; iv++)
     {
-        current_w = f(n, iv);
+        current_w = f(n-1, iv);
 
         // 在越接近 W 的情況下，v要越大
         // => ?

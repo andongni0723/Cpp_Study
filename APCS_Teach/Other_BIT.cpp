@@ -10,28 +10,30 @@ struct BIT
 
     BIT() : vec((int)2e5 + 10, 0) {};
 
-    void init(int n)
+    void init(lint n)
     {
         this->n = n;
     }
 
-    int lowbit(int x)
+    lint lowbit(lint x)
     {
         return x & (-x);
     }
 
-    void add(int x, int pos)
+    void add(lint x, lint pos)
     {
         for(; pos <= n ; pos += lowbit(pos)) vec[pos] += x;
     }
 
-    int sum(int n)
+    lint sum(lint n)
     {
-        int result = 0;
+        lint result = 0;
         for(; n > 0; n -= lowbit(n)) result += vec[n];
         return result;
     }
 };
+
+
 
 int main()
 {

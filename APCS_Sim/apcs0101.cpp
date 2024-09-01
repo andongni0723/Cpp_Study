@@ -7,6 +7,7 @@ int main()
 {
     cout.sync_with_stdio(false);
     cin.tie(nullptr);
+    vector < int >> vec;
 
     int n, p, sitLeave, standLeave, d;
 
@@ -20,7 +21,7 @@ int main()
     int newSit = sit - sitLeave;
     int newStand = stand - standLeave;
 
-    if(newSit + newStand + d <= n)
+    if (newSit + newStand + d <= n)
     {
         cout << "Happy :>" << endl;
         cout << n - (newSit + newStand + d);
@@ -28,6 +29,6 @@ int main()
     else
     {
         cout << "Sad :((" << endl;
-        cout << newSit + newStand + (d-1) - n;
+        cout << newSit + newStand + (d - 1) - n;
     }
 }

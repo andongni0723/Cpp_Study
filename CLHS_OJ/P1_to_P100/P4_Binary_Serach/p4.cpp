@@ -1,59 +1,46 @@
 #include <bits/stdc++.h>
+#include <cstdio>
+#include <unordered_set>
 using namespace std;
+using lint = long long int;
+#define endl "\n"
 
 int main()
 {
-    cout.sync_with_stdio(false);
-    cin.tie(nullptr);
-
+    int n, q;
     vector<int> vec;
-    int n, q, target;
+    scanf("%d %d", &n, &q);
 
-    cin >> n >> q;
-    for (int i = 0; i < n; i++)
+    int t;
+    for(int i = 0 ; i < n ; i++)
     {
-        int t;
-        cin >> t;
-        vec.push_back(t);
+        scanf("%d", &t);
+        vec.emplace_back(t);
     }
 
-    sort(vec.begin(), vec.end());
-
-    // Binary Search q times to find target
-
-    for (int i = 0; i < q; i++)
+    for(int i = 0 ; i < q ; i++)
     {
-        cin >> target;
-        int left = 0;
-        int right = n - 1;
-        int mid = (left + right) / 2;
-        bool found = false;
+        scanf("%d", &t);
 
-        while (left <= right)
+        //search
+        int L = 0, R = n;
+        bool isFind = false;
+        while(L+1 < R)
         {
-            if (vec[mid] == target)
+            // cout << "L:" << L << " R: " << R << endl;
+            int mid = (L+R) / 2;
+            if(vec[mid] == t || vec[0] == t)
             {
-                found = true;
+                printf("%s \n", "Yes");
+                isFind = true;
                 break;
             }
-            else if (vec[mid] < target)
-            {
-                left = mid + 1;
-            }
-            else if (vec[mid] > target)
-            {
-                right = mid - 1;
-            }
-            mid = (left + right) / 2;
+            else if(vec[mid] < t)
+                L = mid;
+            else
+                R = mid;
         }
-
-        if (found)
-        {
-            cout << "YES" << endl;
-        }
-        else
-        {
-            cout << "NO" << endl;
-        }
+        if(isFind) continue;
+        printf("%s \n", (L == t ? "Yes" : "No" ));
     }
 }

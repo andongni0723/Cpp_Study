@@ -1,35 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
+#define int long long
 
-int main()
+signed main()
 {
-    // print("abd")
-    // cout << "abd";
-
-    // x = input()
-    int i1;                 // 1.txt.out , 2, 4
-    long long int ib1;      //
-    float f1;               // 1.txt.out.2
-    string s1;              // "abd"
-    bool isCorrect = false; // false true
-
-    // Input
-    cin >> i1; // x = input("ddd")
-    cout << i1;
-
-    // for
-    // for i in range(3):
-    //
-
-    // f
-    for (int i = 0; i < 3; i++)
-    {
-        cout << i << endl;
-    }
-
-    // while
-
-    // list (array / vector)
+    vector<vector<int>> vec((int)1e5 + 10, vector<int>());
+    cout << "Hello World";
 }
 
 // function
