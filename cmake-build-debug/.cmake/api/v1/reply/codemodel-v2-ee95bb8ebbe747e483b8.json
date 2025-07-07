@@ -1,0 +1,222 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Cpp_Study",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "2019-06_Q4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2019-06_Q4-Debug-999084604ca1da25781f.json",
+					"name" : "2019-06_Q4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2025-06_Q1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2025-06_Q1-Debug-691201cfac5f6a6c9d49.json",
+					"name" : "2025-06_Q1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2025-06_Q3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2025-06_Q3-Debug-3d6fd55a8e70d0d50bad.json",
+					"name" : "2025-06_Q3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AtCoder::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AtCoder-Debug-ef347674cfad35863198.json",
+					"name" : "AtCoder",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Other_BIT::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Other_BIT-Debug-7cab25c651be0e5d3149.json",
+					"name" : "Other_BIT",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "P4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-P4-Debug-71e27443bddc31045b30.json",
+					"name" : "P4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apcs0103::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apcs0103-Debug-bbd1ec86ca28191f1967.json",
+					"name" : "apcs0103",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "p1292::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p1292-Debug-14cea17e3f5d57a629be.json",
+					"name" : "p1292",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "p1337::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p1337-Debug-3d9aaf0546765e8a5e6a.json",
+					"name" : "p1337",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "p1854::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p1854-Debug-eccae7627acd4919ce1c.json",
+					"name" : "p1854",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "p2269::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p2269-Debug-72a0561c039c65a92e15.json",
+					"name" : "p2269",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "p2730::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p2730-Debug-dfe8b80c2cb72038f2ea.json",
+					"name" : "p2730",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "p2908::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p2908-Debug-0ab6e54a8f242d063e7d.json",
+					"name" : "p2908",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "p3142::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p3142-Debug-2eb217a24e8eb5a84483.json",
+					"name" : "p3142",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "p383::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p383-Debug-7baad12f5cbb33d0ddd7.json",
+					"name" : "p383",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "p497::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p497-Debug-15cd9bb606f7ae10359a.json",
+					"name" : "p497",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "p725::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p725-Debug-28f8c116c7972e328767.json",
+					"name" : "p725",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "parser_det_add::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parser_det_add-Debug-5509d96a7c987379cada.json",
+					"name" : "parser_det_add",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scratch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scratch-Debug-56e33134c82f7d7e73ca.json",
+					"name" : "scratch",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/andongni/Documents/Myself_Folder/03_Program_Study/Cpp_Study/cmake-build-debug",
+		"source" : "/Users/andongni/Documents/Myself_Folder/03_Program_Study/Cpp_Study"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

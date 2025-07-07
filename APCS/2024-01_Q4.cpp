@@ -18,7 +18,7 @@ int f(int i, int j) {
   if (i + 1 == j)
     return abs(vec[i] - vec[j]);
 
-  int result = 9999999;
+  int result = 9999999; // INF
   for (int k = i; k < j; k++) {
     result = min(result, f(i, k) + f(k + 1, j) +
                              abs((prefix[i] - prefix[k + 1]) -

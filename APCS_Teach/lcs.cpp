@@ -3,7 +3,8 @@ using namespace std;
 using lint = long long int;
 
 
-int dp[1010][1010] = {0};
+//int dp[1010][1010] = {0};
+vector<vector<int>> dp(1010, vector<int>(1010, -1));
 string s1, s2;
 
 int f(int i, int j)
@@ -37,16 +38,6 @@ int main()
     while(cin >> s1)
     {
         cin >> s2;
-
-        for (int i = 0; i < 1000; i++)
-        {
-            for (int j = 0; j < 1000; j++)
-            {
-                dp[i][j] = -1;
-            }
-        }
-
-
         cout << f(s1.size(), s2.size()) << endl;
     }
 }
