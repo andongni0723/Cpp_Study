@@ -36,7 +36,7 @@ class TreeNode:
         self.right = right
 
     def __repr__(self):
-        return f"TreeNode(val={self.val})"
+        return f"TreeNode(val={self.val}, left={self.left}, right={self.right})"
 
 
 def string_to_listnode(s: str) -> Optional[ListNode]:
