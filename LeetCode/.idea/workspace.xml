@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9049191e-149e-427b-8c15-36f56d1edf8e" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.p1130.executor": "Run",
     "Python.p1290.executor": "Run",
     "Python.p1346.executor": "Run",
     "Python.p1356.executor": "Run",
@@ -52,6 +52,7 @@
     "Python.p2042.executor": "Run",
     "Python.p234.executor": "Run",
     "Python.p239.executor": "Run",
+    "Python.p2679.executor": "Run",
     "Python.p27.executor": "Run",
     "Python.p29.executor": "Run",
     "Python.p322.executor": "Run",
@@ -118,7 +119,7 @@
       <workItem from="1751655975087" duration="46701000" />
       <workItem from="1751964656991" duration="11317000" />
       <workItem from="1752048213633" duration="81295000" />
-      <workItem from="1752834502021" duration="35364000" />
+      <workItem from="1752834502021" duration="54766000" />
     </task>
     <servers />
   </component>
@@ -136,6 +137,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LeetCode$p2679.coverage" NAME="p2679 覆盖结果" MODIFIED="1753013304816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$p1356.coverage" NAME="p1356 覆盖结果" MODIFIED="1751262271726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$p52.coverage" NAME="p52 覆盖结果" MODIFIED="1752292489429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$p2042.coverage" NAME="p2042 覆盖结果" MODIFIED="1751978303670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -152,6 +154,7 @@
     <SUITE FILE_PATH="coverage/LeetCode$p72.coverage" NAME="p72 覆盖结果" MODIFIED="1752760190139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$p51.coverage" NAME="p51 覆盖结果" MODIFIED="1752290898399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$p60.coverage" NAME="p60 覆盖结果" MODIFIED="1752492763304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCode$p1130.coverage" NAME="p1130 覆盖结果" MODIFIED="1753008625282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$p7.coverage" NAME="p7 覆盖结果" MODIFIED="1751256178849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$p15.coverage" NAME="p15 覆盖结果" MODIFIED="1751339328944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$p27.coverage" NAME="p27 覆盖结果" MODIFIED="1751571765341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
